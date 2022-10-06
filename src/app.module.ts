@@ -12,6 +12,8 @@ import { EtapasModule } from './etapas/etapas.module';
 import { StatusesInscricaoModule } from './statuses-inscricao/statuses-inscricao.module';
 import { InscricoesModule } from './inscricoes/inscricoes.module';
 import { ResetSenhaModule } from './reset-senha/reset-senha.module';
+import { StorageModule } from './storage/storage.module';
+import { MediaModule } from './media/media.module';
 
 @Module({
   imports: [
@@ -26,6 +28,8 @@ import { ResetSenhaModule } from './reset-senha/reset-senha.module';
     StatusesInscricaoModule,
     InscricoesModule,
     ResetSenhaModule,
+    StorageModule,
+    MediaModule,
   ],
   controllers: [AppController],
   providers: [AppService],
